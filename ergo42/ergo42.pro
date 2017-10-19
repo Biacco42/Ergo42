@@ -1,4 +1,4 @@
-update=2017年09月24日 18時49分44秒
+update=2017年10月19日 23時49分08秒
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,9 +23,11 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
-LibDir=
+LibDir=promicro_library
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -59,5 +61,4 @@ LibName29=opto
 LibName30=atmel
 LibName31=contrib
 LibName32=valves
-[general]
-version=1
+LibName33=promicro_library/promicro
