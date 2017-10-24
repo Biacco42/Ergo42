@@ -1,4 +1,4 @@
-update=2017年10月19日 23時49分08秒
+update=2017年10月25日 00時32分13秒
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=promicro_library
+LibDir=promicro_library;library
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -62,3 +62,4 @@ LibName30=atmel
 LibName31=contrib
 LibName32=valves
 LibName33=promicro_library/promicro
+LibName34=library/sw_push
