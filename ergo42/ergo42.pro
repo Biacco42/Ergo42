@@ -1,4 +1,4 @@
-update=2017年10月25日 00時32分13秒
+update=2017年10月26日 00時01分11秒
 version=1
 last_client=kicad
 [pcbnew]
@@ -62,4 +62,4 @@ LibName30=atmel
 LibName31=contrib
 LibName32=valves
 LibName33=promicro_library/promicro
-LibName34=library/sw_push
+LibName34=library/ergo42
