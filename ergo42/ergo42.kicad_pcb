@@ -3,9 +3,9 @@
   (general
     (links 152)
     (no_connects 0)
-    (area 59.564572 44.8818 191.845001 128.284)
+    (area 59.564572 -977.83 319.474999 128.284)
     (thickness 1.6)
-    (drawings 4)
+    (drawings 5)
     (tracks 222)
     (zones 0)
     (modules 66)
@@ -2674,6 +2674,9 @@
       (net 33 /xtradata))
   )
 
+  (gr_text "Ergo42 by Biacco42" (at 72.39 50.165) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
   (gr_line (start 59.69 126.365) (end 59.69 47.625) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 191.77 126.365) (end 59.69 126.365) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 191.77 47.625) (end 191.77 126.365) (angle 90) (layer Edge.Cuts) (width 0.15))
