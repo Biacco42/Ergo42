@@ -2,6 +2,8 @@
 
 7x4 matrix keyboard
 
+![Ergo42](https://raw.githubusercontent.com/Biacco42/Ergo42/readme/readme_image/ergo42_image.jpg)
+
 # Parts
 
 - **2** PCB
@@ -29,6 +31,8 @@ Solder diodes on which side is depending on your switch plate's thickness. 3 mm 
 
 **Double check your work**. Black lines should be facing the square pad.
 
+![diodes_01](https://raw.githubusercontent.com/Biacco42/Ergo42/readme/readme_image/pwjP0e8.jpg)
+
 ## Mount the TRRS Jack
 
 Mount the TRRS jack on the side opposite from your switches. It should be on the bottom.
@@ -46,7 +50,9 @@ Mount switches on the acrylic plate, set PCB to fit and solder switches. Nothing
 Ergo42's PCB is symmetrical but Pro Micro mount is different between left and right PCB.
 
 - On the **left PCB** the Pro Micro's component side should be **face to PCB**
-- On the **right PCB** the Pro Micro's component side should be **back to PCB** 
+- On the **right PCB** the Pro Micro's component side should be **back to PCB**
+
+![left side PCB](https://raw.githubusercontent.com/Biacco42/Ergo42/readme/readme_image/IMG_20171118_203023508.jpg)
 
 Pro Micro has no reset switch. You can solder tact switch between GND and RST pins here.
 
@@ -70,3 +76,7 @@ $ make ergo42/rev1:default:avrdude
 will build and try to flash your firmware. Follow the instractions that require to reset the Pro Micro.
 
 This process may require privileges.
+
+## All have done
+
+Just go.
