@@ -12,7 +12,7 @@
 - **2** 5V/16MHz Pro Micro compatible boards
 - **56** 1N4148 diodes
 - **2** [MJ-4PP-9 TRRS jacks](http://akizukidenshi.com/catalog/g/gC-06070/)
-- **2** Case plate set
+- **2** Case plate set (available on this repo)
 - **10** 10mm M3 standoffs
 - **20** 6mm M3 screws
 - **56** [Switches of your choice](https://mechanicalkeyboards.com/shop/index.php?l=product_list&c=107)
