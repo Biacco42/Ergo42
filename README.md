@@ -80,5 +80,3 @@ will build and try to flash your firmware. Follow the instractions that require 
 This process may require privileges.
 
 ## All have done
-
-Just go.
