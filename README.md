@@ -18,7 +18,7 @@
 - **56** [Switches of your choice](https://mechanicalkeyboards.com/shop/index.php?l=product_list&c=107)
 - **1** TRRS cable
 
-**/!\** The M3 screws linked above may have a slight clearance issue with the keycap. You can countersink the head or use a screw with a lower profile head. I'm testing out button head screws to see if they work better.
+The M3 screws may have a slight clearance issue with the keycap. Use a screw with a lower profile head.
 
 ## Mount the Diodes
 
