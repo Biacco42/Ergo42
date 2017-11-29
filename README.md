@@ -1,6 +1,8 @@
 # Ergo42
 
-7x4 matrix keyboard
+**The Answer to the Ultimate Question of Life, the Universe, and at least Keyboards.**
+
+7x4 ortho linear split keyboard.
 
 ![Ergo42](https://raw.githubusercontent.com/Biacco42/Ergo42/readme/readme_image/ergo42_image.jpg)
 
@@ -64,7 +66,7 @@ Install your keycaps.
 
 ## Flash QMK Firmware
 
-QMK firmware for Ergo42 now abilable on [this repo](https://github.com/Biacco42/qmk_firmware).
+QMK firmware for Ergo42 now abilable on [this repo at ergo42 branch](https://github.com/Biacco42/qmk_firmware/tree/ergo42).
 This document doesn't cover how to build QMK. Prease refer to [QMK documents](https://docs.qmk.fm/).
 
 Conntect the keyboard by usb cable to PC and run
