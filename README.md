@@ -6,57 +6,59 @@
 
 ![Ergo42](https://raw.githubusercontent.com/Biacco42/Ergo42/readme/readme_image/ergo42_image.jpg)
 
+_Caution! Ergo42 after version 2.0.0 is not compatible with version 1 seriese design. If you build Ergo42 version 1 seriese, please refer 1.x branch._
+
 # Parts
 
 - **2** PCB
 - **2** 5V/16MHz Pro Micro compatible boards
-- **56** 1N4148 diodes
+- **56** 1N4148 (THD) or 1N4148w (SMD) diodes
 - **2** [MJ-4PP-9 TRRS jacks](http://akizukidenshi.com/catalog/g/gC-06070/)
-- **2** Case plate set (available on this repo)
-- **10** 10mm M3 standoffs
-- **20** 6mm M3 screws
+- **2** Case plate set (design available on this repo)
+- **10** 5 mm (Cherry MX) / 3 mm (Kailh row profile) height M2 standoffs **(3 mm height standoffs are under verifing)**
+- **8** 15 mm height M2 standoffs
+- **36** 6 mm M2 screws
+- **2** 2 pin tact switch
 - **56** [Switches of your choice](https://mechanicalkeyboards.com/shop/index.php?l=product_list&c=107)
-- **1** TRRS cable
+- **1** TRRS / TRS cable
 
-The M3 screws may have a slight clearance issue with the keycap. Use a screw with a lower profile head.
+The screws may have a slight clearance issue with the keycap. Use a screw with a lower profile head.
 
-## Mount the Diodes
+## Mount the diodes
 
 Place the PCB as TRRS jacks on the inside, closest to one another.
 
 - The **left PCB** will have the **TRRS jack on the right**
 - The **right PCB** will have the **TRRS jack on the left**
 
-Solder diodes on which side is depending on your switch plate's thickness. 3 mm thick acrylic plate may have diodes on any side. 5 mm one **should have diodes on the other side of switches**. 
+Solder diodes on which side is depending on your switch plate's thickness and key switch type, which is Cherry MX compatible or Kailh row profile. Acrylic plate thickness < 3 mm with Cherry MX compatibles should have diodes on the same side of key switches. Acrylic plate thickness 2 mm with Kailh row profile switches should have diodes on the other side of key switches.
 
-> *Tip:* Only the side which opposites from switches is verified.
+**Double check your work**. Black lines (THD) / White lines (SMD) should be facing the square pad.
 
-**Double check your work**. Black lines should be facing the square pad.
+![diodes_01](https://raw.githubusercontent.com/Biacco42/Ergo42/readme/readme_image/ergo42_rev2_diode_from_top.jpg)
 
-![diodes_01](https://raw.githubusercontent.com/Biacco42/Ergo42/readme/readme_image/pwjP0e8.jpg)
+## [Optional] Mount the resistors and bridge jumper
 
-## Mount the TRRS Jack
+If you want to use I2C, not UART, to comunicate with other side PCB, you should add 2.2 k ohm resistors on left side PCB's R1 and R2 printed silk. And bridge to short W1 pad by solder jumper on each side PCB. Usualy you don't have to do this step.
 
-Mount the TRRS jack on the side opposite from your switches. It should be on the bottom.
+## Mount the TRRS Jack and tact switch
 
-## Mount Header Pins
-
-Solder **header pins** for Pro Micro. **DO NOT solder the Pro Micro at this time**
-
-## Mount switches
-
-Mount switches on the acrylic plate, set PCB to fit and solder switches. Nothing is difficult.
+Mount the TRRS jack and tact switch on the same side of your switches. It should be on upper face.
 
 ## Mount the Pro Micro
 
 Ergo42's PCB is symmetrical but Pro Micro mount is different between left and right PCB.
 
-- On the **left PCB** the Pro Micro's component side should be **face to PCB**
-- On the **right PCB** the Pro Micro's component side should be **back to PCB**
+- On the **left PCB** the Pro Micro's component side should be **back to PCB**.
+- On the **right PCB** the Pro Micro's component side should be **face to PCB**.
 
-![left side PCB](https://raw.githubusercontent.com/Biacco42/Ergo42/readme/readme_image/IMG_20171118_203023508.jpg)
+![left side PCB](https://raw.githubusercontent.com/Biacco42/Ergo42/readme/readme_image/ergo42_rev2_promicro_left.jpg)
 
-Pro Micro has no reset switch. You can solder tact switch between GND and RST pins here.
+![right side PCB](https://raw.githubusercontent.com/Biacco42/Ergo42/readme/readme_image/ergo42_rev2_promicro_right.jpg)
+
+## Mount switches
+
+Mount switches on the acrylic plate, set PCB to fit and solder switches. Nothing is difficult.
 
 ## Assemble the case
 
@@ -66,7 +68,7 @@ Install your keycaps.
 
 ## Flash QMK Firmware
 
-QMK firmware for Ergo42 now abilable on [this repo at ergo42 branch](https://github.com/Biacco42/qmk_firmware/tree/ergo42).
+QMK firmware for Ergo42 now abilable on [QMK firmware](https://github.com/qmk/qmk_firmware).
 This document doesn't cover how to build QMK. Prease refer to [QMK documents](https://docs.qmk.fm/).
 
 Conntect the keyboard by usb cable to PC and run
@@ -75,8 +77,14 @@ Conntect the keyboard by usb cable to PC and run
 $ make ergo42/rev1:default:avrdude
 ```
 
-will build and try to flash your firmware. Follow the instractions that require to reset the Pro Micro.
+on left and right side keyboard each.
 
-This process may require privileges.
+It will build and try to flash your firmware. Follow the instractions that require to reset the Pro Micro.
+
+This process may require privileges. If you have some `Permission denied` error, please try
+
+```
+$ sudo make ergo42/rev1:default:avrdude
+```
 
 ## All have done
