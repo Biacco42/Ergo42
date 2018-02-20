@@ -15,7 +15,7 @@ _Caution! Ergo42 after version 2.0.0 is not compatible with version 1 seriese de
 - **56** 1N4148 (THD) or 1N4148w (SMD) diodes
 - **2** [MJ-4PP-9 TRRS jacks](http://akizukidenshi.com/catalog/g/gC-06070/)
 - **2** Case plate set (design available on this repo)
-- **10** 5 mm (Cherry MX) / 3 mm (Kailh row profile) height M2 standoffs **(3 mm height standoffs are under verifing)**
+- **10** 5 mm (Cherry MX) / 3 mm (Kailh low profile) height M2 standoffs **(3 mm height standoffs are under verifing)**
 - **8** 15 mm height M2 standoffs
 - **36** 6 mm M2 screws
 - **2** 2 pin tact switch
@@ -31,7 +31,7 @@ Place the PCB as TRRS jacks on the inside, closest to one another.
 - The **left PCB** will have the **TRRS jack on the right**
 - The **right PCB** will have the **TRRS jack on the left**
 
-Solder diodes on which side is depending on your switch plate's thickness and key switch type, which is Cherry MX compatible or Kailh row profile. Acrylic plate thickness < 3 mm with Cherry MX compatibles should have diodes on the same side of key switches. Acrylic plate thickness 2 mm with Kailh row profile switches should have diodes on the other side of key switches.
+Solder diodes on which side is depending on your switch plate's thickness and key switch type, which is Cherry MX compatible or Kailh low profile. Acrylic plate thickness < 3 mm with Cherry MX compatibles should have diodes on the same side of key switches. Acrylic plate thickness 2 mm with Kailh low profile switches should have diodes on the other side of key switches.
 
 **Double check your work**. Black lines (THD) / White lines (SMD) should be facing the square pad.
 
