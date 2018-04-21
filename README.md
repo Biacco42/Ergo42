@@ -6,7 +6,7 @@
 
 ![Ergo42](https://raw.githubusercontent.com/Biacco42/Ergo42/readme/readme_image/ergo42_image.jpg)
 
-_Caution! Ergo42 after version 2.0.0 is not compatible with version 1 seriese design. If you build Ergo42 version 1 seriese, please refer 1.x branch._
+_Caution! Ergo42 after version 2.0.0 is not compatible with version 1 series design. If you build Ergo42 version 1 series, please refer to the 1.x branch._
 
 # Parts
 
@@ -22,7 +22,7 @@ _Caution! Ergo42 after version 2.0.0 is not compatible with version 1 seriese de
 - **56** [Switches of your choice](https://mechanicalkeyboards.com/shop/index.php?l=product_list&c=107)
 - **1** TRRS / TRS cable
 
-The screws may have a slight clearance issue with the keycap. Use a screw with a lower profile head.
+The screws may have a slight clearance issue with the keycaps. Use a screw with a lower profile head.
 
 ## Mount the diodes
 
@@ -31,7 +31,7 @@ Place the PCB as TRRS jacks on the inside, closest to one another.
 - The **left PCB** will have the **TRRS jack on the right**
 - The **right PCB** will have the **TRRS jack on the left**
 
-Solder diodes on which side is depending on your switch plate's thickness and key switch type, which is Cherry MX compatible or Kailh low profile. Acrylic plate thickness < 3 mm with Cherry MX compatibles should have diodes on the same side of key switches. Acrylic plate thickness 2 mm with Kailh low profile switches should have diodes on the other side of key switches.
+Which side you solder the diodes on depends on your switch plate's thickness and key switch type, which is Cherry MX compatible or Kailh low profile. Acrylic plate thickness < 3 mm with Cherry MX compatibles should have diodes on the same side as the key switches. Acrylic plate thickness 2 mm with Kailh low profile switches should have diodes on the opposite side of the key switches.
 
 **Double check your work**. Black lines (THD) / White lines (SMD) should be facing the square pad.
 
@@ -39,15 +39,15 @@ Solder diodes on which side is depending on your switch plate's thickness and ke
 
 ## [Optional] Mount the resistors and bridge jumper
 
-If you want to use I2C, not UART, to comunicate with other side PCB, you should add 2.2 k ohm resistors on left side PCB's R1 and R2 printed silk. And bridge to short W1 pad by solder jumper on each side PCB. Usualy you don't have to do this step.
+If you want to use I2C, not UART, to comunicate with other side PCB, you should add 2.2 k ohm resistors on the left side PCB's R1 and R2 printed silk. Also bridge to short W1 pad by solder jumper on each side PCB. Usually you don't have to do this step.
 
 ## Mount the TRRS Jack and tact switch
 
-Mount the TRRS jack and tact switch on the same side of your switches. It should be on upper face.
+Mount the TRRS jack and tact switch on the same side as your switches. It should be on the upper face.
 
 ## Mount the Pro Micro
 
-Ergo42's PCB is symmetrical but Pro Micro mount is different between left and right PCB.
+Ergo42's PCB is symmetrical but Pro Micro mount is different between the left and right PCB.
 
 - On the **left PCB** the Pro Micro's component side should be **back to PCB**.
 - On the **right PCB** the Pro Micro's component side should be **face to PCB**.
@@ -68,18 +68,18 @@ Install your keycaps.
 
 ## Flash QMK Firmware
 
-QMK firmware for Ergo42 now abilable on [QMK firmware](https://github.com/qmk/qmk_firmware).
+QMK firmware for Ergo42 is now available on [QMK firmware](https://github.com/qmk/qmk_firmware).
 This document doesn't cover how to build QMK. Prease refer to [QMK documents](https://docs.qmk.fm/).
 
-Conntect the keyboard by usb cable to PC and run
+Connect the keyboard by USB cable to a PC and run
 
 ```
 $ make ergo42/rev1:default:avrdude
 ```
 
-on left and right side keyboard each.
+on the left and right side keyboard individually.
 
-It will build and try to flash your firmware. Follow the instractions that require to reset the Pro Micro.
+It will build and try to flash your firmware. Follow the instructions that require to reset the Pro Micro.
 
 This process may require privileges. If you have some `Permission denied` error, please try
 
@@ -87,4 +87,4 @@ This process may require privileges. If you have some `Permission denied` error,
 $ sudo make ergo42/rev1:default:avrdude
 ```
 
-## All have done
+## All done!
