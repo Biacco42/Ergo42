@@ -58,7 +58,8 @@ Ergo42's PCB is symmetrical but Pro Micro mount is different between the left an
 
 ## Mount switches
 
-Mount switches on the acrylic plate, set PCB to fit and solder switches. Nothing is difficult.
+Mount switches on the acrylic plate, set PCB to fit and solder switches.  
+**When you use Cherry MX compatibles with Acrylic plate thickness < 3 mm and 5 mm height stand-offs, please cut off the tip of the electricity terminal of the switch. The electricity terminal of the switch interferences with bottom plate.**
 
 ## Assemble the case
 
