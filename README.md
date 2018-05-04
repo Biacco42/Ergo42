@@ -17,7 +17,7 @@ _Caution! Ergo42 after version 2.0.0 is not compatible with version 1 series des
 - **2** Case plate set (design available on this repo)
 - **10** 5 mm (Cherry MX) / 3 mm (Kailh low profile) height M2 standoffs **(3 mm height standoffs are under verifing)**
 - **8** 15 mm height M2 standoffs
-- **36** 6 mm M2 screws
+- **36** 4 ~ 6 mm M2 screws (Height corresponds to your plate thickness)
 - **2** 2 pin tact switch
 - **56** [Switches of your choice](https://mechanicalkeyboards.com/shop/index.php?l=product_list&c=107)
 - **1** TRRS / TRS cable
