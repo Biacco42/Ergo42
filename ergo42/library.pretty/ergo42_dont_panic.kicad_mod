@@ -1,4 +1,4 @@
-(module ergo42_logo (layer F.Cu) (tedit 0)
+(module ergo42_dont_panic (layer F.Cu) (tedit 0)
   (fp_text reference G*** (at 0 0) (layer F.SilkS) hide
     (effects (font (thickness 0.3)))
   )

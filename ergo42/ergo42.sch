@@ -93,17 +93,6 @@ F 3 "" H 3700 6300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ProMicro U3
-U 1 1 59F9DC2A
-P 2650 4150
-F 0 "U3" H 2650 5100 60  0000 C CNN
-F 1 "ProMicro" H 2650 3600 60  0000 C CNN
-F 2 "promicro:ProMicro" H 2750 3100 60  0001 C CNN
-F 3 "" H 2750 3100 60  0000 C CNN
-	1    2650 4150
-	1    0    0    -1  
-$EndComp
-$Comp
 L GND #PWR01
 U 1 1 59F9DCA3
 P 3350 3500
@@ -194,9 +183,9 @@ col5
 Text Label 3650 4500 0    60   ~ 0
 col6
 Text Label 1450 3800 0    60   ~ 0
-scl
+sda
 Text Label 1450 3900 0    60   ~ 0
-sda/uart
+scl/uart
 Text Label 1450 4200 0    60   ~ 0
 row0
 Text Label 1450 4300 0    60   ~ 0
@@ -248,7 +237,7 @@ Wire Wire Line
 Text Label 4850 1250 0    60   ~ 0
 xtradata
 Text Label 4850 1650 0    60   ~ 0
-scl
+sda
 Wire Wire Line
 	5900 1250 5750 1250
 $Comp
@@ -274,7 +263,7 @@ Wire Wire Line
 	6950 1100 7500 1100
 Connection ~ 7150 1400
 Text Label 7100 1100 0    60   ~ 0
-sda/uart
+scl/uart
 $Comp
 L R R2
 U 1 1 59F9FD8B
@@ -1120,4 +1109,15 @@ Wire Wire Line
 	2850 1950 3100 1950
 Wire Wire Line
 	3100 1950 3100 2150
+$Comp
+L ProMicro U3
+U 1 1 5B437EBD
+P 2650 4150
+F 0 "U3" H 2650 5100 60  0000 C CNN
+F 1 "ProMicro" H 2650 3600 60  0000 C CNN
+F 2 "promicro:ProMicroReversible" H 2750 3100 60  0001 C CNN
+F 3 "" H 2750 3100 60  0000 C CNN
+	1    2650 4150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
