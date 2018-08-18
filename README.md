@@ -6,7 +6,7 @@
 
 ![Ergo42](https://raw.githubusercontent.com/Biacco42/Ergo42/readme/readme_image/ergo42_image.jpg)
 
-_Caution! Ergo42 after version 2.0.0 is not compatible with version 1 series design. If you build Ergo42 version 1 series, please refer to the 1.x branch._
+_Caution! Ergo42 after version 3.0.0 Towel is not compatible with both version 1 and 2 series design. If you build Ergo42 not version 3 Towel series, please refer to the 1.x or 2.x branch._
 
 # Parts
 
@@ -31,7 +31,7 @@ Place the PCB as TRRS jacks on the inside, closest to one another.
 - The **left PCB** will have the **TRRS jack on the right**
 - The **right PCB** will have the **TRRS jack on the left**
 
-Which side you solder the diodes on depends on your switch plate's thickness and key switch type, which is Cherry MX compatible or Kailh low profile. Acrylic plate thickness < 3 mm with Cherry MX compatibles should have diodes on the same side as the key switches. Acrylic plate thickness 2 mm with Kailh low profile switches should have diodes on the opposite side of the key switches.
+Which side you solder the diodes on depends on your switch plate's thickness and key switch type, which is Cherry MX compatible or Kailh low profile. Acrylic plate thickness < 3 mm with Cherry MX compatibles should have diodes on the same side as the key switches. Acrylic plate  with Kailh low profile switches should have diodes on the opposite side of the key switches.
 
 **Double check your work**. Black lines (THD) / White lines (SMD) should be facing the square pad.
 
@@ -47,14 +47,25 @@ Mount the TRRS jack and tact switch on the same side as your switches. It should
 
 ## Mount the Pro Micro
 
-Ergo42's PCB is symmetrical but Pro Micro mount is different between the left and right PCB.
+Ergo42's PCB is symmetrical but Pro Micro mount is different between the left and right PCB. _This spec is changed from version 2._
 
-- On the **left PCB** the Pro Micro's component side should be **back to PCB**.
-- On the **right PCB** the Pro Micro's component side should be **face to PCB**.
+### Pro Micro and pin header
 
-![left side PCB](https://raw.githubusercontent.com/Biacco42/Ergo42/readme/readme_image/ergo42_rev2_promicro_left.jpg)
+Solder pin headers on the Pro Micro's component side. __Both left side and right side one are same.__
 
-![right side PCB](https://raw.githubusercontent.com/Biacco42/Ergo42/readme/readme_image/ergo42_rev2_promicro_right.jpg)
+![Soldered pin header](https://raw.githubusercontent.com/Biacco42/Ergo42/readme/readme_image/ergo42_rev3_pro_micro.jpg)
+
+If you use [through hole connector](http://www.mac8sdk.co.jp/mac8/parts/XXX/xb.html), you should solder that on the Pro Micro board, not on the PCB.
+
+### Solder (or set) the Pro Micro
+
+Solder (or set when you use through hole connector) the Pro Micro on the PCB in the white line silk.
+
+![Soldered pin header](https://raw.githubusercontent.com/Biacco42/Ergo42/readme/readme_image/ergo42_rev3_pro_micro_mount_line1.jpg)
+
+![Soldered pin header](https://raw.githubusercontent.com/Biacco42/Ergo42/readme/readme_image/ergo42_rev3_pro_micro_mount_line2.jpg)
+
+__Be careful to refer the white line on the Pro Micro side (not soldering side).__
 
 ## Mount switches
 
@@ -67,6 +78,8 @@ Tighten the screws with standoffs.
 Some [vinyl pads](https://www.amazon.co.jp/gp/product/B00V5MQWGS/ref=oh_aui_detailpage_o00_s00?ie=UTF8&psc=1) may help the keyboard's stability.
 Install your keycaps.
 
+From version 3 Towel, there are some tent/tilt leg options. You can set the legs and put on some [silicon tape](https://www.amazon.co.jp/gp/product/B0054ICJ0W/ref=oh_aui_detailpage_o02_s00?ie=UTF8&psc=1) for stability.
+
 ## Flash QMK Firmware
 
 QMK firmware for Ergo42 is now available on [QMK firmware](https://github.com/qmk/qmk_firmware).
@@ -75,7 +88,7 @@ This document doesn't cover how to build QMK. Prease refer to [QMK documents](ht
 Connect the keyboard by USB cable to a PC and run
 
 ```
-$ make ergo42/rev1:default:avrdude
+$ make ergo42:default:avrdude
 ```
 
 on the left and right side keyboard individually.
