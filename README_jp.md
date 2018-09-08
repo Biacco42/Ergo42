@@ -65,7 +65,7 @@ Pro Microのコンポーネント側にピンヘッダーをハンダします�
 
 ![Through hole connector directions and sides](https://raw.githubusercontent.com/Biacco42/Ergo42/readme/readme_image/pro_micro_THC_sides.jpg)
 
-上記の画像の方向を参照して、Pro Micro にコンスルーを取り付けてください。コンスルーを同じ方向に向けるように注意してください。両方のコンスルーの穴を同時に見ることができます。下記の画像で同時にコンスルーの穴が見えていることを確認してください。
+上記の画像の方向を参照して、Pro Micro にコンスルーを取り付けてください。コンスルーを同じ方向に向けるように注意してください。両方の _コンスルーの穴_ を同時に見ることができます。下記の画像で同時にコンスルーの穴が見えていることを確認してください。
 
 ![Soldered pin header](https://raw.githubusercontent.com/Biacco42/Ergo42/readme/readme_image/pro_micro_connector_through.jpg)
 
