@@ -63,7 +63,7 @@ The through hole connector has sides and directions. There is recommended mount 
 
 ![Through hole connector directions and sides](https://raw.githubusercontent.com/Biacco42/Ergo42/readme/readme_image/pro_micro_THC_sides.jpg)
 
-Please mount the through hole connector on the Pro Micro referencing the direction on the image above. Also be careful to mount the through hole connectors to face same side on same direction. You can see the holes on both through hole connectors simultaneously.
+Please mount the through hole connector on the Pro Micro referencing the direction on the image above. Also be careful to mount the through hole connectors to face same side on same direction. You can see _the holes_ on both through hole connectors simultaneously. Please check that the holes of the through hole connector is visible at the same time in the image below.
 
 ![Soldered pin header](https://raw.githubusercontent.com/Biacco42/Ergo42/readme/readme_image/pro_micro_connector_through.jpg)
 
