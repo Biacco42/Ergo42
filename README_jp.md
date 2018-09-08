@@ -55,9 +55,19 @@ Ergo42のPCBは対称ですが、Pro Microマウントは左右のPCBで異な�
 
 Pro Microのコンポーネント側にピンヘッダーをハンダします。 __左側のものと右側のものは同じものです__
 
-![はんだピンヘッダー](https://raw.githubusercontent.com/Biacco42/Ergo42/readme/readme_image/ergo42_rev3_pro_micro.jpg)
+![はんだピンヘッダー](https://raw.githubusercontent.com/Biacco42/Ergo42/readme/readme_image/pro_micro_connector_through.jpg)
+
+##### コンスルーを利用する場合
 
 [コンスルー](http://www.mac8sdk.co.jp/mac8/parts/XXX/xb.html) を使用する場合は、PCB上ではなく、Pro Microボード上に半田付けする必要があります。
+
+コンスルーには裏表と方向があります。推奨されるマウント方向があります。
+
+![Through hole connector directions and sides](https://raw.githubusercontent.com/Biacco42/Ergo42/readme/readme_image/pro_micro_THC_sides.jpg)
+
+上記の画像の方向を参照して、Pro Micro にコンスルーを取り付けてください。コンスルーを同じ方向に向けるように注意してください。両方のコンスルーの穴を同時に見ることができます。下記の画像で同時にコンスルーの穴が見えていることを確認してください。
+
+![Soldered pin header](https://raw.githubusercontent.com/Biacco42/Ergo42/readme/readme_image/pro_micro_connector_through.jpg)
 
 ### Pro Microを半田付け（または設定）
 
