@@ -53,9 +53,19 @@ Ergo42's PCB is symmetrical but Pro Micro mount is different between the left an
 
 Solder pin headers on the Pro Micro's component side. __Both left side and right side one are same.__
 
-![Soldered pin header](https://raw.githubusercontent.com/Biacco42/Ergo42/readme/readme_image/ergo42_rev3_pro_micro.jpg)
+![Soldered pin header](https://raw.githubusercontent.com/Biacco42/Ergo42/readme/readme_image/pro_micro_connector_through.jpg)
 
-If you use [through hole connector](http://www.mac8sdk.co.jp/mac8/parts/XXX/xb.html), you should solder that on the Pro Micro board, not on the PCB.
+##### Through hole connector
+
+If you use [through hole connectors](http://www.mac8sdk.co.jp/mac8/parts/XXX/xb.html), you should solder that on the Pro Micro board, not on the PCB.
+
+The through hole connector has sides and directions. There is recommended mount direction.
+
+![Through hole connector directions and sides](https://raw.githubusercontent.com/Biacco42/Ergo42/readme/readme_image/pro_micro_THC_sides.jpg)
+
+Please mount the through hole connector on the Pro Micro referencing the direction on the image above. Also be careful to mount the through hole connectors to face same side on same direction. You can see the holes on both through hole connectors simultaneously.
+
+![Soldered pin header](https://raw.githubusercontent.com/Biacco42/Ergo42/readme/readme_image/pro_micro_connector_through.jpg)
 
 ### Solder (or set) the Pro Micro
 
