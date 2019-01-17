@@ -78,6 +78,9 @@ PCB上のPro Microを取り付ける面の白線に合わせて Pro Micro をハ
 ![はんだピンヘッダー](https://raw.githubusercontent.com/Biacco42/Ergo42/readme/readme_image/ergo42_rev3_pro_micro_mount_line2.jpg)
 
 __Pro Micro側（はんだ付け側ではありません）の白い線を注意深く参照してください.__
+以下の画像の青線で囲った場所が正しい位置となります。左右で取り付けるべき場所が違うので注意してください。 __以下の画像はスイッチを取り付ける面(上面)から見たもの__です。
+
+![ProMicro取り付け位置](https://user-images.githubusercontent.com/732828/51353965-7d1ef000-1af5-11e9-808b-43a172dfa545.jpg)
 
 ## スイッチをマウントする
 
