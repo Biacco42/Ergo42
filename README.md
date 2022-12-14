@@ -92,6 +92,14 @@ From version 3 Towel, there are some tent/tilt leg options. You can set the legs
 
 ## Flash QMK Firmware
 
+### To flash the pre-built firmware hosted by Remap
+
+Now you can flash the pre-built firmware that supports VIA / Remap keymap edit in Remap.
+
+https://remap-keys.app/catalog/unf8swoIgYlDVLGyN9H6
+
+### To build your own firmware
+
 QMK firmware for Ergo42 is now available on [QMK firmware](https://github.com/qmk/qmk_firmware).
 This document doesn't cover how to build QMK. Prease refer to [QMK documents](https://docs.qmk.fm/).
 

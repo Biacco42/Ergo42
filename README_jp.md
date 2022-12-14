@@ -97,6 +97,14 @@ __Pro Micro側（はんだ付け側ではありません）の白い線を注意
 
 ## Flash QMKファームウェア
 
+### Remapがホストするビルド済みファームウェアをフラッシュする場合
+
+現在、RemapでVIA / Remapキーマップ編集に対応したビルド済みファームウェアをフラッシュすることができます。
+
+https://remap-keys.app/catalog/unf8swoIgYlDVLGyN9H6
+
+### ファームウェアを自作する場合
+
 Ergo42用のQMKファームウェアは、[QMKファームウェア](https://github.com/qmk/qmk_firmware) で利用できるようになりました。
 このドキュメントでは、QMKを構築する方法については説明しません。 [QMKドキュメント](https://docs.qmk.fm/) を参照してください。
 
